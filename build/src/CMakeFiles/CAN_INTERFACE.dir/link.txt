@@ -1,0 +1,2 @@
+/usr/bin/ar qc libCAN_INTERFACE.a  CMakeFiles/CAN_INTERFACE.dir/can/caninterface.cc.o
+/usr/bin/ranlib libCAN_INTERFACE.a
