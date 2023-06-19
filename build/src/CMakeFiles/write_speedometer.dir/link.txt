@@ -1,1 +1,0 @@
-/usr/bin/c++     CMakeFiles/write_speedometer.dir/write_speedomter.cc.o  -o write_speedometer  libCAN.a libCAN_INTERFACE.a 

@@ -1,3 +1,0 @@
-file(REMOVE_RECURSE
-  "libCAN_INTERFACE.a"
-)
