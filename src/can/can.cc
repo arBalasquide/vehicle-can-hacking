@@ -40,10 +40,10 @@ uint8_t CanMessage::generateChecksum() {
   switch (_make) {
   case TOYOTA:
     _checksum = (_idh + _idl + _length + (sum(_data, _length - 1))) & 0xff;
-	_data[_length-1] = _checksum;
+    _data[_length - 1] = _checksum;
     break;
-	case FORD:
-	//_checksum =
+  case FORD:
+    //_checksum =
   default:
     break;
   }
@@ -80,14 +80,14 @@ std::ostream &operator<<(std::ostream &os, CanMessage msg) {
     os << "TOYOTA";
     break;
   case FORD:
-	os << "FORD";
-	break;
+    os << "FORD";
+    break;
   case BMW:
-	os << "BMW";
-	break;
+    os << "BMW";
+    break;
   case HONDA:
-	os << "HONDA";
-	break;
+    os << "HONDA";
+    break;
   default:
     os << "UNKNOWN";
     break;

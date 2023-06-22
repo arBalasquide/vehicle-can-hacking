@@ -18,7 +18,7 @@ public:
   uint8_t idl() { return _idl; }
   uint8_t idh() { return _idh; }
   uint8_t checksum() { return _checksum; }
-  uint8_t* data() { return _data; }
+  uint8_t *data() { return _data; }
 
   uint16_t id() { return _id; };
   uint16_t length() { return _length; }
@@ -40,5 +40,5 @@ private:
   VehicleMake _make{CUSTOM};
 
   uint16_t _length;
-  uint8_t * _data;
+  uint8_t *_data;
 };
